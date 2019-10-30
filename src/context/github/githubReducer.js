@@ -32,7 +32,7 @@ export default (state, action) => {
     case GET_REPOS:
       return {
         ...state,
-        userRepos: action.payload,
+        repos: action.payload,
         loadng: false
       };
 
